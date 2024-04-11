@@ -65,6 +65,13 @@
     --ring: 212.7 26.8% 83.9%;
   }
 }
+.cl-providerIcon__github {
+  filter: invert(1);
+}
+.glass {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2.4px);
+}
 
 @layer base {
   * {
