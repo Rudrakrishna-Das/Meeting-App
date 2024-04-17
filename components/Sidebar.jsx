@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 const Sidebar = () => {
   const pathName = usePathname();
   return (
-    <section className="sticky top-0 left-0 bg-dark-1 h-screen w-56 text-white flex flex-col justify-center p-5 max-sm:hidden max-lg:w-20 transition-all duration-500">
+    <section className="sticky top-0 left-0 bg-dark-1 h-screen w-80 text-white flex flex-col justify-center p-5 max-sm:hidden max-lg:w-20 transition-all duration-500">
       <ul className="flex flex-col gap-8">
         {sidebarLabels.map((link) => {
           const isActive =
